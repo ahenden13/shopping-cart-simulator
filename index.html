@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Shopping Cart</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <br>
+        <h1>Alana's Plant Store</h1>
+        <h2>Your Shopping Cart</h2>
+        <br>
+    </header>
+    
+    <div id="quantSelect">
+        <h3>Golden Pothos: $8.00</h3>
+        <input type="number" min="0" max="5" id="quantity1" placeholder="#">
+        <br>
+        <h3>ZZ Plant: $5.00</h3>
+        <input type="number" min="0" max="5" id="quantity2" placeholder="#">
+        <br>
+        <h3>Snake Plant: $10.00</h3>
+        <input type="number" min="0" max="5" id="quantity3" placeholder="#">
+        <br><br>
+        <button id="quantities">Confirm Quantities</button>
+    </div>    
+
+    <div class = "flex">
+        <div><h3>Please select your shipping preference: </h3>
+        <div id="shippingOptions"></div>
+        <br>
+        <button id="confirmShipping">Confirm Shipping</button>
+        </div>
+        <div id="shippingImg"></div>
+    </div>
+
+    <div id="promoC">
+        <h3>Enter a Promo Code</h3>
+        <input type="text" id="promo"><span id="codeFeedback"></span>
+        <br><br>
+        <button id="promoCode">Check Promo Code</button>
+    </div>
+
+    <br>
+    <div id="totals">
+        <h2 id="displaySubtotal"></h2>
+        <h2 id="displayTax"></h2>
+        <h2 id="displayFinalTotal"></h2>
+    </div>
+    <br>
+
+    <footer>
+        <p>ALANA HENDEN ||  CST336 HW2 || SEPT 24'</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+body {
+    font-family: cursive;
+}
+
+
+
+header {
+    text-align: center;
+    background-image: url("../img/vines2.jpg");
+}
+
+#quantSelect {
+    border-style: dotted;
+    border-color: #80bd51;
+    padding: 3%;
+    border-width: 5px;
+}
+
+.flex {
+    display: flex;
+    border-style: dotted;
+    border-color: #80bd51;
+    padding: 3%;
+    border-width: 5px;
+}
+
+#promoC {
+    border-style: dotted;
+    border-color: #80bd51;
+    padding: 3%;
+    border-width: 5px;
+}
+
+button {
+    background-color: #4d9660;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+#totals {
+    text-align: center;
+}
+
+#displayFinalTotal {
+    text-decoration: overline;
+}
+
+footer {
+    text-align: center;
+    background-image: url("../img/vines2.jpg");
+    padding: 3%;
+    font-weight: bold;
+    font-size: 14pt;
+}
